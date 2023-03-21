@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <script src="https://kit.fontawesome.com/d044bafdfb.js" crossorigin="anonymous"></script>
+  <script src = "https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Nerko+One&family=Rubik+Microbe&family=Zen+Dots&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <!-- <div class = "parent">
+    <a href = "#" class = "logo">Portfolio</a>
+
+    Navigate
+    <div class = "navbar">
+        <a href = "#home">Home</a>
+        <a href = "#about">About</a>
+        <a href = "Services">Services</a>
+        <a href = "#portfolio">Portfolio</a>
+        <a href = "#contact">Contact</a>
+
+    </div>
+  </div> -->
+
+  <div class = "hero">
+    <king>
+    <h2 class = "logo">Portfo<span>lio</span></h2>
+    <h3 id = "email">mutharason.s@zohocorp.com</h3>
+    <ul>
+        <li><a href = "#home">Home</a></li>
+        <li><a href = "#about">About</a></li>
+        <li><a href = "#services">Projects</a></li>
+        <li><a href = "#skills">My Skill</a></li>
+        <!-- <li><a href = "#contact">Contact Us</a></li> -->
+        
+    </ul>
+    <a></a>
+</king>
+  </div>
+  <div class = "scroll">
+
+<div class="content" id = "home">
+    <h4>Hello, I'm </h4>
+    <h1>Mutharason</h1>
+    <h3>I'm a <span id = "tester"> Software Tester</span></h3>
+    <button class = "button-85"><a href="#about" class = "removeLine">About Me</a></button>
+    <!-- <img src = "../Portfolio--MyProfile/mine.png" class = "myImg"> -->
+</div>
+
+
+  <!--                        About Section Start -->
+  <section class = "about" id = "about">
+    <h2 class = "aboutMe">About Me</h2>
+    <div class = "main">
+      <img src = "../Portfolio--MyProfile/mine.png" class = "myImg">      
+        <div class="about-text">
+            <!-- <h5>Tester</h5> -->
+            <div class = "gridTemplate">
+              <ul>
+              <li>Hi, I am Mutharason.<!-- I am from zoho schools of technology, Tenkasi.--> </li>
+                    <li> I am coming from Kadayalurutti near Surandai in Tenkasi district.<br>I was born 
+                     on 20-05-2005.</li>
+                 <li>
+                I completed 12th standard in Government school in Serndhamaram.
+              </li>
+                    <!-- <li>I choose software testing stream. I'm interested in this stream.</li> -->
+              <!-- <li>My Favorite Person is Bharathiyar</li> -->
+                    <li>Email id : arasonyt2@gmail.com</li>
+              <li>Mobile number : 9344152124</li>
+              <li>Emp id : ZSTTK313</li>
+            </ul>
+              <!-- <p style="font-size: 25px;">Name</p>
+              <p style="font-size: 25px;">: Mutharason.S</p>
+              <p style="font-size: 25px;">Mobile number</p>
+              <p style="font-size: 25px;">: 9344152124</p>
+              <p style="font-size: 25px;">Name</p>
+              <p style="font-size: 25px;">: Mutharason</p>
+              <p style="font-size: 25px;">Name</p>
+              <p style="font-size: 25px;">: Mutharason</p>
+              <p style="font-size: 25px;">Name</p>
+              <p style="font-size: 25px;">: Mutharason</p>
+              <p style="font-size: 25px;">Name</p>
+              <p style="font-size: 25px;">: Mutharason</p> -->
+            </div>
+               <button class = "cd ski"><a href="#skill2">My Skill</a></button>
+        </div>
+    </div>
+  </section>
+
+  <!--                        Service Sction start -->
+
+  <div class = "service" id = "services">
+    <div class = "title">
+        <h2>Projects</h2>
+    </div>
+    <div class = "box">
+
+      <div id = "project">
+        
+        <!-- <button class = "cd" onclick = "a(1)"><a href = "#web">Webdriver</a></button>
+        <button class = "cd" onclick = "a(2)"><a href = "#seleniumIDE">Selenium IDE</a></button>
+        <button class = "cd" onclick = "a(3)"><a href = "#testNG">TestNG</a></button>
+       
+    
+        <button class = "cd" onclick = "a(4)"><a href = "#js">Javascript</a></button>
+        <button class = "cd" onclick = "a(5)"><a href = "#MD">Manual Documents</a></button>
+        <button class = "cd" onclick = "a(6)"><a href = "#scratch">Scratch</a></button> -->
+
+        <button onclick = "changeProject(1)" class = "cd" id="cb">TestNG</button> 
+        <button onclick = "changeProject(2)" class = "cd">Webdriver</button> 
+        <button onclick = "changeProject(3)" class = "cd">Selenium Ide</button> 
+        <button onclick = "changeProject(4)" class = "cd">Manual Dcuments</button> 
+        <button onclick = "changeProject(5)" class = "cd">Javascript</button> 
+        <button onclick = "changeProject(6)" class = "cd">Scratch</button> 
+        <button onclick = "changeProject(7)" class = "cd">Java</button>
+      
+      </div>
+
+      <h1 class = "webdriver" id = "web"></h1>
+
+      <div class = "projectImg" id = "webdriver">
+
+        <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+          <div class = "hoverDiv">
+            <a id = "anchor0" href = "" target = "_blank">
+            <img id = "proImg0" src = "" class = "hoverImg"/>
+            <h1 id = "name0" class = "name"></h1></a></div>
+            <img id = "hover0" src = "" class = "productImage"/>
+        </div>
+
+        <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+          <div class = "hoverDiv">
+            <a id = "anchor1" href = "" target = "_blank">
+              <img id = "proImg1" src = "" class = "hoverImg"/>
+              <h1 id = "name1" class = "name"></h1></a></div>       
+          <img id = "hover1" src = "" class = "productImage"/>
+      </div>
+
+      <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+        <div class = "hoverDiv">
+          <a id = "anchor2" href = "" target = "_blank">
+            <img id = "proImg2" src = "" class = "hoverImg"/>
+            <h1 id = "name2" class = "name"></h1></a></div>
+        <img id = "hover2" src = "" class = "productImage"/>
+        
+    </div>
+
+    <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+      <div class = "hoverDiv">
+        <a id = "anchor3" href = "" target = "_blank">
+        <img id = "proImg3" src = "" class = "hoverImg"/>
+        <h1 id = "name3" class = "name"></h1></a></div>
+      <img id = "hover3" src = "" class = "productImage rediff"/>
+        </div>
+        </div>
+
+        <!-- Selenium Ide -->
+
+       
+        
+         <!-- Finish TestNG -->
+
+         <!-- Javascript -->
+<!-- 
+         <h1 class = "webdriver">HTML, CSS& JS</h1>
+
+         <div class = "projectImg" id = "js" >
+   
+           <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+             <div class = "hoverDiv"><a href = "https://myproject1-home.arasonyt.repl.co/"><img src = "js.jpeg" class = "hoverImg"/><h1 class = "name">Bouncing ball</h1></a></div>
+             <img src = "game.jpg" class = "productImage ball"/>
+              
+               <div class="pra">
+                  
+               </div>
+           </div>
+   
+           <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+             <div class = "hoverDiv"><a href = "https://mygame.arasonyt.repl.co/"><img src = "js.jpeg" class = "hoverImg"/><h1 class = "name">Tictactoe</h1></a></div>
+             <img src = "tictactoe.png" class = "productImage"/>
+             
+             <div class="pra">
+                
+             </div>
+   
+         </div>
+   
+         <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+           <div class = "hoverDiv"><a href = "https://assignment-9.arasonyt.repl.co/"><img src = "js.jpeg" class = "hoverImg"/><h1 class = "name">Website</h1></a></div>
+           <img src = "Screenshot from 2023-03-21 00-51-29.png" class = "productImage memoryGame"/>
+           
+           <div class="pra">
+              
+           </div>
+       </div>
+   
+       <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+         <div class = "hoverDiv"><a href = "https://myproject.arasonyt.repl.co/"><img src = "js.jpeg" class = "hoverImg"/><h1 class = "name">Fortune Teller</h1></a></div>
+         <img src = "myProject.webp" class = "productImage"/>
+               
+               <div class="pra">
+                  
+               </div>
+           </div>
+   
+           </div> -->
+
+           <!-- Finish Javascript -->
+
+           <!-- Manual Documents -->
+
+           <!-- <h1 class = "webdriver">Manual Documents</h1>
+
+           <div class = "projectImg" id = "MD">
+     
+             <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+               <div class = "hoverDiv"><a href = "https://sheet.zoho.com/sheet/open/rz99hc872fd25f2dc4e6ca16309f57a1a70d8?sheetid=0&range=A1"><img src = "md.png" class = "hoverImg"/><h1 class = "name">zoho Mail</h1></a></div>
+               <img src = "zohoMail.png" class = "productImage zohoMail"/>
+                 
+                 <div class="pra">
+                    
+                 </div>
+             </div>
+     
+             <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+               <div class = "hoverDiv"><a href = "https://sheet.zoho.com/sheet/open/rynsd2daf98e8b0a44204b111ef6ab170a406?sheetid=0&range=D13"><img src = "md.png" class = "hoverImg"/><h1 class = "name">Bitly Login</h1></a></div>
+               <img src = "Bit.ly_Logo.svg.png" class = "productImage bitly"/>
+               
+               <div class="pra">
+                  
+               </div>
+     
+           </div>
+     
+           <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+             <div class = "hoverDiv"><a href = "https://sheet.zoho.com/sheet/open/s0tmb1a376aa8d1e84a53885cb27978c68128"><img src = "md.png" class = "hoverImg"/><h1 class = "name">Flipkart</h1></a></div>
+             <img src = "flipkart.png"/>
+             
+             <div class="pra">
+                
+             </div>
+         </div>
+     
+         <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+           <div class = "hoverDiv"><a href = "https://sheet.zoho.com/sheet/open/5jn83fb9dfeff26c3487c82e252306d91ad3f?sheetid=0&range=A1"><img src = "md.png" class = "hoverImg"/><h1 class = "name">TPV Multiplex</h1></a></div>
+           <img src = "tpv.jpeg" class = "productImage"/>
+                 
+                 <div class="pra">
+                    
+                 </div>
+             </div>
+     
+             </div> -->
+
+             <!-- Finish Manual Documents -->
+
+             <!-- Scratch -->
+
+             <!-- <h1 class = "webdriver">Scratch</h1>
+
+             <div class = "projectImg" id = "scratch">
+       
+               <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+                 <div class = "hoverDiv"><a href = "https://scratch.mit.edu/projects/725220137/fullscreen/"><img src = "scratch.png" class = "hoverImg"/><h1 class = "name">Assasination Game</h1></a></div>
+                 <img src = "Hunter-Assassin.jpg" class = "productImage"/>
+                   
+                   <div class="pra">
+                      
+                   </div>
+               </div>
+       
+               <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+                 <div class = "hoverDiv"><a href = "https://scratch.mit.edu/projects/718878327/fullscreen/"><img src = "scratch.png" class = "hoverImg"/><h1 class = "name">Tictactoe</h1></a></div>
+                 <img src = "calender.png" class = "productImage calender"/>
+                 
+                 <div class="pra">
+                    
+                 </div>
+       
+             </div>
+       
+             <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+               <div class = "hoverDiv"><a href = "https://scratch.mit.edu/projects/721340983/fullscreen/"><img src = "scratch.png" class = "hoverImg"/><h1 class = "name">Tictactoe</h1></a></div>
+               <img src = "lcmandhcf.jpeg" class = "productImage lcm"/>
+               
+               <div class="pra">
+                  
+               </div>
+           </div>
+       
+           <div class = "card" onmouseenter="showDiv(this)" onmouseleave="hideDiv(this)">
+             <div class = "hoverDiv"><a href = "https://scratch.mit.edu/projects/721704718/fullscreen/"><img src = "scratch.png" class = "hoverImg"/><h1 class = "name">Tictactoe</h1></a></div>
+             <img src = "shortStory.jpg" class = "productImage story"/>
+                   
+                   <div class="pra">
+                      
+                   </div>
+               </div>
+       
+               </div> -->
+
+               <!-- Finish Scratch -->
+
+
+    </div>
+  </div>
+
+  <div id = "Skill">
+  <div class = "skills" id = "skills">
+    <h1 class = "mySkill"  id = "skill2">My Skill</h1>
+
+  <li><h3 class = "protitle">WebDriver</h3>
+    <span class = "bar"><span class = "css" per = "70%"></span></span>
+  </li>
+
+  <li><h3 class = "protitle">TestNG</h3>
+    <span class = "bar"><span class = "testNG" per = "70%"></span></span>
+  </li>
+
+  <li><h3 class = "protitle">Selenium IDE</h3>
+    <span class = "bar"><span class = "ide" per = "75%"></span></span>
+  </li>
+
+  <li><h3 class = "protitle">Manual Documents</h3>
+    <span class = "bar"><span class = "md" per = "80%" ></span></span>
+  </li>
+
+  <li><h3 class = "protitle">HTML, CSS & JS</h3>
+    <span class = "bar"><span class = "js" per = "60%"></span></span>
+  </li>
+
+  <li><h3 class = "protitle">Java</h3>
+    <span class = "bar"><span class = "selector" per = "75%"></span></span>
+  </li>
+
+  <!-- <li><h3 class = "protitle">Maths</h3>
+    <span class = "bar"><span class = "maths" per = "90%"></span></span>
+  </li> -->
+  </div>
+  </div>
+
+  <!-- Contact Me
+
+  <div id = "contact">
+
+  <div class = "contactMe" >
+
+  <div class = "contact-form">
+  <h1 class = "contact">Contact <span>Us</span></h1>
+
+  <p>Mobile no : 9344152124 </p>
+    <p>Email id : arasonyt2@gmail.com</p>  
+  <form action = "">
+    <label>Name<input type = "" placeholder = "Your Name" id = "name" required></label>
+    <label>Email<input type = "email" name = "email" placeholder = "E-mail" required></label>
+    <label>Message<textarea name = "" id = "" cols = "30" rows = "10"  placeholder = "Enter your message" required></textarea></label>
+      <input type = "submit" name = "submit" value = "Submit" class = "btn">
+  </div>
+  </form>
+</div>
+</div> -->
+    <!-- <p>Let Me Get You A beautiful Website</p>
+    <a class = "button-two" href = "#">Hire Me</a> -->
+
+
+  <!-- Footer start -->
+
+  <footer>
+    <p>Thank You !!!</p>
+    <!-- <p>@Copyrights by Arason</p> -->
+    <div class = "social">
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+    </div>
+    <p class = "copyright">@Copyrights by Arason</p>
+  </footer>
+  </div>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+<!--   <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  -->
+</body>
+
+</html>
