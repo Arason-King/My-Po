@@ -941,7 +941,6 @@ label{
 .cd{
     font-size: 25px;
     color:white;
-    background: none;
     display: inline-block;
     background: #f9004d;
     border: 2px solid transparent;
@@ -960,3 +959,8 @@ label{
     transform: scale(1.1);
 }
 
+.cd1{
+    color:white;
+    background: #000;
+    border:1px solid #f9004d;
+}

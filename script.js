@@ -7,8 +7,10 @@ function hideDiv(e){
     $(ele).slideUp("slow");
 }
 changeProject(1);
-function changeProject(number){
-  
+function changeProject(number,e){
+
+    $(e).addClass("cd1").siblings().removeClass("cd1")
+    
     if(number==2){
        let aarr = ["https://workdrive.zoho.com/file/osy1oa14dbd657b814f16acabc9d52a3dc822", "https://workdrive.zoho.com/file/0nd9kbb91db3ca85d402aabd397c82422dd42", "https://workdrive.zoho.com/file/0nd9kad665e43bc6c4955be191b4354a5b0fa", "https://workdrive.zoho.com/file/0nd9kad665e43bc6c4955be191b4354a5b0fa"]
        let imgArr = ["seleniumweb.png"];
@@ -20,10 +22,7 @@ function changeProject(number){
         document.getElementById("name"+i).innerText = text[i];
         document.getElementById("hover"+i).setAttribute("src", srcarr[i]);
      }
-     for(let i=0; i<=7; i++){
-      document.getElementById("cb"+i).style.setProperty("background-color","red");
-     }
-     document.getElementById("cb1").style.setProperty("background-color","blue");
+
     }
 
     if(number==5){
@@ -37,10 +36,6 @@ function changeProject(number){
          document.getElementById("name"+i).innerText = text[i];
          document.getElementById("hover"+i).setAttribute("src", srcarr[i]);
       }
-      for(let i=0; i<=7; i++){
-        document.getElementById("cb"+i).style.setProperty("background-color","red");
-       }
-       document.getElementById("cb1").style.setProperty("background-color","blue");
 
      }
 
@@ -55,10 +50,6 @@ function changeProject(number){
          document.getElementById("name"+i).innerText = text[i];
          document.getElementById("hover"+i).setAttribute("src", srcarr[i]);
       }
-      for(let i=0; i<=7; i++){
-        document.getElementById("cb"+i).style.setProperty("background-color","red");
-       }
-       document.getElementById("cb3").style.setProperty("background-color","blue");
 
      }
 
@@ -73,10 +64,6 @@ function changeProject(number){
          document.getElementById("name"+i).innerText = text[i];
          document.getElementById("hover"+i).setAttribute("src", srcarr[i]);
       }
-      for(let i=0; i<=7; i++){
-        document.getElementById("cb"+i).style.setProperty("background-color","red");
-       }
-       document.getElementById("cb5").style.setProperty("background-color","blue");
 
      }
 
@@ -92,10 +79,6 @@ function changeProject(number){
          document.getElementById("name"+i).innerText = text[i];
          document.getElementById("hover"+i).setAttribute("src", srcarr[i]);
       }
-      for(let i=0; i<=7; i++){
-        document.getElementById("cb"+i).style.setProperty("background-color","red");
-       }
-       document.getElementById("cb0").style.setProperty("background-color","blue");
 
      }
 
@@ -112,11 +95,9 @@ function changeProject(number){
          document.getElementById("hover"+i).setAttribute("src", srcarr[i]);
       }
 
-      for(let i=0; i<=7; i++){
-        document.getElementById("cb"+i).style.setProperty("background-color","red");
-       }
-       document.getElementById("cb2").style.setProperty("background-color","blue");
      }
 }
 
 console.log(false)
+
+$('#cb0').addClass("cd1")
