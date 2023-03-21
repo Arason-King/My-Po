@@ -119,3 +119,4 @@ function changeProject(number){
      }
 }
 
+console.log(true)
