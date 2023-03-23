@@ -53,7 +53,7 @@ function changeProject(number,e){
 
      if(number==6){
         let aarr = ["https://scratch.mit.edu/projects/725220137/fullscreen/","https://scratch.mit.edu/projects/718878327/fullscreen/","https://scratch.mit.edu/projects/721340983/fullscreen/","https://scratch.mit.edu/projects/721704718/fullscreen/"];
-        let imgArr = ["scratch.png"];
+        let imgArr = ["scratch1.png"];
         let text = ["Assassin Game", "Matching Calender", "HCF & LCM", "Short Story"];
         let srcarr = ["Hunter-Assassin.jpg", "calender.png", "lcmandhcf.jpeg", "shortStory.jpg"];
       for(let i=0; i<aarr.length; i++){

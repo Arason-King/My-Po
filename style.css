@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 html,body{
-    background-color: rgb(255, 255, 255);
+    background-color: #3b3b3b;
 }
 .scroll{
     width: 100%;
@@ -146,9 +146,9 @@ h4{
     align-items: center;
     margin-top:.1vh;
 }
-.about img{
-    height: 80vh;
-    width: 40%;
+.about img {
+    height: auto;
+    width: 30%;
 }
 .about-text{
     width:55%;
