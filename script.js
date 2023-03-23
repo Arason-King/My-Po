@@ -67,10 +67,10 @@ function changeProject(number,e){
 
      if(number==1){
         let cl = ["productImage ball","productImage","productImage memoryGame","productImage"];
-        let aarr = ["https://workdrive.zoho.com/file/osy1ob977b3a91dbe419eaa14ed0499b5cd28","https://workdrive.zoho.com/file/osy1oc18b482ccfd9458484229f1166de1d14","https://workdrive.zoho.com/file/0nd9k0e0f8607d81447ec9f579c66b7fe6b77","https://workdrive.zoho.com/file/0nd9k80e99c85a84243949d4f036ddf892032"];
+        let aarr = ["https://workdrive.zoho.com/file/osy1ob977b3a91dbe419eaa14ed0499b5cd28","https://workdrive.zoho.com/file/osy1oc18b482ccfd9458484229f1166de1d14","https://workdrive.zoho.com/file/0nd9k0e0f8607d81447ec9f579c66b7fe6b77","https://workdrive.zoho.com/file/2sjpg5e913dce996045e6bc18c07963fca42e"];
         let imgArr = ["testNG1.jpg"];
-        let text = ["Tictactoe", "Programiz", "Flipkart", "Zoho App"];
-        let srcarr = ["tictactoe.png", "programiz-removebg-preview (1).png", "flipkart.png", "zoho.jpeg"];
+        let text = ["Tictactoe", "Programiz", "Flipkart", "Connect"];
+        let srcarr = ["tictactoe.png", "programiz-removebg-preview (1).png", "flipkart.png", "connect.png"];
       for(let i=0; i<srcarr.length; i++){
          document.getElementById("anchor"+i).setAttribute("href", aarr[i]);
          document.getElementById("proImg"+i).setAttribute("src", imgArr[0]);
