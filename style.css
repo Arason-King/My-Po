@@ -6,6 +6,27 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+/* .wave{
+    background: url(wave.png) repeat-x;
+    background-color: black;
+      height: 100px;
+      z-index: 5;
+    animation: wave-animation 6.3s infinite linear;
+        transition: all .5s;
+        background-size: 100% 100%;
+  }
+  
+  @keyframes
+  wave-animation{
+  0% {
+      background-position: 0 0;
+  }
+  
+  100% {
+      background-position: 1601px 0;
+  } */
+  /* } */
 html,body{
     background-color: #3b3b3b;
 }
