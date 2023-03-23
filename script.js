@@ -9,7 +9,7 @@ function hideDiv(e){
 changeProject(1);
 function changeProject(number,e){
 
-    $(e).addClass("cd1").siblings().removeClass("cd1")
+    $(e).addClass("cd1").siblings().removeClass("cd1");
     
     if(number==2){
        let aarr = ["https://workdrive.zoho.com/file/osy1oa14dbd657b814f16acabc9d52a3dc822", "https://workdrive.zoho.com/file/0nd9kbb91db3ca85d402aabd397c82422dd42", "https://workdrive.zoho.com/file/0nd9kad665e43bc6c4955be191b4354a5b0fa", "https://workdrive.zoho.com/file/fybok1291d7e517a24aa3a9d9023a750041eb"]
@@ -22,7 +22,6 @@ function changeProject(number,e){
         document.getElementById("name"+i).innerText = text[i];
         document.getElementById("hover"+i).setAttribute("src", srcarr[i]);
      }
-
     }
 
     if(number==5){
@@ -36,7 +35,6 @@ function changeProject(number,e){
          document.getElementById("name"+i).innerText = text[i];
          document.getElementById("hover"+i).setAttribute("src", srcarr[i]);
       }
-
      }
 
      if(number==4){
