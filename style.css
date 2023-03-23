@@ -1,8 +1,10 @@
 *{
     padding: 0;
     margin: 0;
-    font-family:'Josefin Sans', sans-serif;
+    /* font-family:'sans-serif'; */
+    font-family: sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 html,body{
     background-color: #3b3b3b;
@@ -241,7 +243,7 @@ h5{
     line-height: 27px;
     margin-bottom: 25px;
 }
-    footer{
+    #footer{
     position: relative;
     width:100%;
     height: 400px;
@@ -252,19 +254,19 @@ h5{
     justify-content: center;
     margin-top:-3%;
 }
-footer p:nth-child(1){
+#footer p:nth-child(1){
     font-size: 30px;
     color: white;
     margin-bottom: 20px;
     font-weight: bold;
 }
-footer p:nth-child(1){
+#footer p:nth-child(1){
     font-size: 30px;
     color: white;
     margin-bottom: 20px;
     font-weight: bold;
 }
-footer p:nth-child(2){
+#footer p:nth-child(2){
     font-size: 30px;
     color: white;
     margin-bottom: 20px;
@@ -561,8 +563,46 @@ li{
         width: 95%;
     }
 }
+.driver{
+    width: 75%;
+    border-radius: 10px;
+    position: relative;
+    animation: driver 3s 1;
+}
+.driver::before{
+    display: block;
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top:-35px;
+    right: 0;
+    transform: translateX(50%);
+}
+.driver::after{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #f1f1f1;
+    right: 0;
+    top: -18px;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+@keyframes driver{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 75%;
+    }
+}
 .css{
-    width: 70%;
+    width: 55%;
     border-radius: 10px;
     position: relative;
     animation: css 3s 1;
@@ -583,44 +623,6 @@ li{
     display: block;
     content: "";
     position: absolute;
-    width: 8px;
-    height: 8px;
-    background: #f1f1f1;
-    right: 0;
-    top: -18px;
-    transform: translateX(50%) rotate(45deg);
-    border-radius: 2px;
-}
-@keyframes css{
-    from{
-        width: 0%;
-    }
-    to{
-        width: 70%;
-    }
-}
-.js{
-    width: 60%;
-    border-radius: 10px;
-    position: relative;
-    animation: js 3s 1;
-}
-.js::before{
-    display: block;
-    content: attr(per);
-    position: absolute;
-    padding: 4px 6px;
-    background: #f1f1f1;
-    border-radius: 4px;
-    font-size: 12px;
-    top:-35px;
-    right: 0;
-    transform: translateX(50%);
-}
-.js::after{
-    display: block;
-    content: "";
-    position: absolute;
     width: 10px;
     height: 10px;
     background: #f1f1f1;
@@ -629,12 +631,12 @@ li{
     transform: translateX(50%) rotate(45deg);
     border-radius: 2px;
 }
-@keyframes js{
+@keyframes css{
     from{
         width: 0%;
     }
     to{
-        width: 60%;
+        width: 55%;
     }
 }
 
@@ -784,19 +786,20 @@ label{
 .name{
     font-size: 40px;
     margin-top: 6%;
+    font-family: 'Josefin Sans',sans-serif;
 }
 .a{
     width:400px;
     height: 300px;
     margin-right: 10px;
 }
-    .selector{
-    width: 75%;
+    .java{
+    width: 50%;
     border-radius: 10px;
     position: relative;
-    animation: selector 3s 1; 
+    animation: java 3s 1; 
 }
-.selector::before{
+.java::before{
     display: block;
     content: attr(per);
     position: absolute;
@@ -808,7 +811,7 @@ label{
     right: 0;
     transform: translateX(50%);
 }
-.selector::after{
+.java::after{
     display: block;
     content: "";
     position: absolute;
@@ -820,12 +823,12 @@ label{
     transform: translateX(50%) rotate(45deg);
     border-radius: 2px;
 }
-@keyframes selector{
+@keyframes java{
     from{
         width: 0%;
     }
     to{
-        width: 75%;
+        width: 50%;
     }
 }
 .md{
@@ -905,7 +908,7 @@ label{
     }
 }
 .testNG{
-    width: 70%;
+    width: 75%;
     border-radius: 10px;
     position: relative;
     animation: testNG 3s 1; 
@@ -939,7 +942,7 @@ label{
         width: 0%;
     }
     to{
-        width: 70%;
+        width: 75%;
     }
 }
 .copyright{
