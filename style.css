@@ -532,7 +532,7 @@ li{
     }
 }
 .driver{
-    width: 75%;
+    width: 80%;
     border-radius: 10px;
     position: relative;
     animation: driver 3s 1;
@@ -566,11 +566,11 @@ li{
         width: 0%;
     }
     to{
-        width: 75%;
+        width: 80%;
     }
 }
 .css{
-    width: 55%;
+    width: 60%;
     border-radius: 10px;
     position: relative;
     animation: css 3s 1;
@@ -604,7 +604,7 @@ li{
         width: 0%;
     }
     to{
-        width: 55%;
+        width: 60%;
     }
 }
 
@@ -876,7 +876,7 @@ label{
     }
 }
 .testNG{
-    width: 75%;
+    width: 80%;
     border-radius: 10px;
     position: relative;
     animation: testNG 3s 1; 
@@ -910,7 +910,7 @@ label{
         width: 0%;
     }
     to{
-        width: 75%;
+        width: 80%;
     }
 }
 .copyright{
