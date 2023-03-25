@@ -25,10 +25,10 @@ function changeProject(number,e){
     }
 
     if(number==5){
-        let aarr = ["https://mygame.arasonyt.repl.co/","https://myproject1-home.arasonyt.repl.co/","https://assignment-9.arasonyt.repl.co/","https://myproject.arasonyt.repl.co/"];
+        let aarr = ["https://mygame.arasonyt.repl.co/","https://myproject1-home.arasonyt.repl.co/","https://assignment-006.arasonyt.repl.co/","https://myproject.arasonyt.repl.co/"];
         let imgArr = ["js.jpeg"];
-        let text = ["Tictactoe","Bouncing Ball", "PIXELARITY", "JS Programs"];
-        let srcarr = ["tictactoe.png","game.jpg", "Screenshot from 2023-03-21 00-51-29.png", "myProject.webp"];
+        let text = ["Tictactoe","Bouncing Ball", "Consultation", "JS Programs"];
+        let srcarr = ["tictactoe.png","game.jpg", "consult.jpeg", "myProject.webp"];
       for(let i=0; i<aarr.length; i++){
          document.getElementById("anchor"+i).setAttribute("href", aarr[i]);
          document.getElementById("proImg"+i).setAttribute("src", imgArr[0]);
